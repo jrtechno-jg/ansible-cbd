@@ -5,9 +5,9 @@
   gather_facts: false
 
   tasks:
-    - name: run show version on the routers
+    - name: run show version
       ios_command:
-        commands: show version | incl Version
+        commands: show version
       register: output
 
     - name: print output
