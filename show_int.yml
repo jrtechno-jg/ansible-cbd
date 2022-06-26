@@ -25,4 +25,4 @@
         mode: "static"
         ip: "10.1.1.1 255.255.255.0"
         allowaccess: ['https', 'ping']
-        name: "VLAN_100
+        name: "VLAN_100"
