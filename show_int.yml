@@ -19,7 +19,7 @@
       system_interface:
         state: "present"
         vdom: "root"
-        interface: "internal"
+        interface: "internal2"
         type: "vlan"
         vlanid: "100"
         mode: "static"
