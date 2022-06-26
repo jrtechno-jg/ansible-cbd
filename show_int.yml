@@ -9,7 +9,7 @@
     ssl_verify: "False"
   tasks:
   - name: Configure VLAN_100
-    fortinet.fortios.fortios_system_api_user:
+    fortinet.fortios.fortios_system_interface:
       host: "{{ host }}"
       username: "{{ username }}"
       password: "{{ password }}"
